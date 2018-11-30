@@ -49,14 +49,17 @@ mkdir -p /tmp/nusantara;
 cd /tmp/nusantara;
 unzip -o "$ZIP";
 show_progress 0.1000000, 0;
-ui_print "|-------------------------------------|";
-ui_print "|-    ╔╗╔┬ ┬┌─┐┌─┐┌┐┌┌┬┐┌─┐┬─┐┌─┐    -|";
-ui_print "|-    ║║║│ │└─┐├─┤│││ │ ├─┤├┬┘├─┤    -|";
-ui_print "|-    ╝╚╝└─┘└─┘┴ ┴┘└┘ ┴ ┴ ┴┴└─┴ ┴    -|";
-ui_print "|-     ╦═╗┌─┐┌─┐┌─┐┬  ┬┌─┐┬─┐┬ ┬     -|";
-ui_print "|-     ╠╦╝├┤ │  │ │└┐┌┘├┤ ├┬┘└┬┘     -|";
-ui_print "|-     ╩╚═└─┘└─┘└─┘ └┘ └─┘┴└─ ┴      -|";
-ui_print "|-------------------------------------|";
+ui_print "                                             ";
+ui_print "       _   _           _____                 ";
+ui_print "      | \ | |         |  __ \                ";
+ui_print "      |  \| |_   _ ___| |__) |___  ___       ";
+ui_print "      | . ' | | | / __|  _  // _ \/ __|      ";
+ui_print "      | |\  | |_| \__ \ | \ \  __/ (__       ";
+ui_print "      |_| \_|\__,_|___/_|  \_\___|\___|      ";
+ui_print "            By Team Nusantara Devs           ";
+ui_print "                  Ayra Hikari                ";
+ui_print "                                             ";
+ui_print "                                             ";
 /sbin/busybox mount /system;
 NR=/tmp/nusantara/Nusantara
 IMG=/tmp/nusantara/TWRP/recovery.img
