@@ -69,8 +69,6 @@ if [ "$NR_BUILD_TYPE" != "UNOFFICIAL" ]; then
 		NR_BUILD_TYPE=OFFICIAL
 	else
 		NR_BUILD_TYPE=UNOFFICIAL
-		echo -e "${CLR_BLD_RED}Error Device is not OFFICIAL${CLR_RST}"
-		exit 1;
 	fi
 fi
 
